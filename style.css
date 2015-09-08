@@ -1,0 +1,125 @@
+#matrix1
+{
+	float: left;
+	width: 400px;
+	height: 400px;
+	border-top: 1px solid #999;
+	border-left: 1px solid #999;	
+}
+h2,h3 {
+	color:green;
+}
+#matrix1 .cell
+{
+	float: left;
+	width: 19px;
+	height: 19px;	
+	border-bottom: 1px solid #999;
+	border-right: 1px solid #999;	
+}
+
+#matrix1 .head
+{
+	background-color: brown;
+	border-radius:10px;
+    box-shadow:2px 2px 10px #804e1a;
+}
+
+#matrix1 .tail
+{
+	background-color: green;
+	border-radius:10px;
+    box-shadow:2px 2px 10px #804e1a;
+}
+
+#matrix1 .fruit
+{
+	background-color: orange;
+	border-radius:10px;
+    box-shadow:2px 2px 10px #804e1a;
+}
+
+#matrix1 .poison
+{
+	background-color: black;
+	border-radius:10px;
+    box-shadow:2px 2px 10px #804e1a;
+}
+#score 
+{	
+	
+	height: 30px;	
+	border: 1px solid #999;
+	color:yellow;
+	text-align:center;
+	background-color:navy;
+}
+#eatable
+{
+	
+	background-color:orange;
+	color:green;
+	
+}
+#noneatable
+{
+	
+	background-color:black;
+	color:white;
+	
+}
+
+#snake_head
+{
+	
+	background-color:brown;
+	color:white;
+	
+}
+#snake_tail
+{
+	
+	background-color:green;
+	color:orange;
+	
+}
+td
+{
+	background-color: navy;
+	color:yellow;
+	border: 1px solid red;
+	border-radius:7px;
+	
+}
+.req
+{
+	background-color: navy;
+	color:white;
+	border: 1px solid white;
+	width:220px;
+}
+
+#tnumber{
+	
+	width:20px;
+	text-align:center;
+}
+
+#tname {
+	
+	width:100px;
+	
+}
+
+#tscore {
+	
+	width:30px;
+	text-align:right;
+	
+}
+#input_login 
+{
+	
+	text-transform:capitalize;
+	
+}

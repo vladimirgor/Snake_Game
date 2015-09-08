@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title>hw_less7.1</title>
+		<link rel="stylesheet" href="style.css" type="text/css" media="screen" /> 
+		<script language="javascript" src="entrance.js"></script>
+		<script language="javascript" src="script.js"></script>
+		<script language="javascript" src="snake.js"></script>
+		<script language="javascript" src="jquery-1.11.3.js"></script>
+	</head>
+	<body tabindex=1>
+		<h2 id = "game1">Game 'Snake'.</h2>		
+			<form>
+			<input id = "input_login" type ="text" autofocus required  placeholder ="Input your login, please"></input>			
+			<input type ="submit" id = "btnEnter" value = "Send your login, please"></input>
+			</form>
+		<h3>Choose game level, please.		
+			<button id = "level1" disabled>1</button>
+			<button id = "level2" disabled>2</button>
+			<button id = "level3" disabled>3</button>
+			<button id = "level4" disabled>4</button>		
+		</h3>
+		<h3>Meaning:<br><span id = "snake_head">Snake head</span>
+		<span id = "snake_tail">Snake tail</span>
+		<span id = "eatable">Fruit</span>
+		<span id = "noneatable">Poison</span></h3>
+		<h3>Your score : <span id = "score"></span></h3>
+		<h3><a href = "records_10.html">Ten of the best</a></h3>
+		<h3><a href = "records.html">All records</a></h3>
+		<div id = "matrix1"  ></div>
+	</body>
+</html>
